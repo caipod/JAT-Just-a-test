@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	background: #EDF3F7;
+	font-family: system-ui;
+}
+.header-content{
+	background: white;
+}
+h1{
+	padding-left: 20px;
+	padding-block-start: 10px;
+	margin-block-start: 0;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+ul{
+	display: flex;
+	list-style: none;
+	padding-inline-start: 20px;
+	position: relative;
+}
+li{
+	padding: 0 10px;
+	margin-block-end:0px;
+}
+.overview > .highlight{
+	width: 100%;
+	height: 1px;
+	background: #00031B;
+	margin-top: 10px;
+}
+
+.navbar li:nth-child(2),
+.navbar li:nth-child(3),
+.navbar li:nth-child(4){
+	font-weight: 400;
+	font-size: 16px;
+	color: #4E516B;
+}
